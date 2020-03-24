@@ -1,0 +1,159 @@
+
+
+/*
+TENGO QUE PONERLE SCROLL MAGIC AL TITULO PARA QUE BAJE Y DESAPARESCA CON LA IMAGEN
+*//
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #E1FD44;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*min-height: 400vh;*/
+	font-family: fantasy;
+	font-size: 14px;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.titulo{
+	/*color: black;*/
+	
+
+	position: absolute;
+	top: 5vw;
+	left: 45vw;
+	
+	z-index: 1;
+	
+	
+	padding: 20px;
+	margin: 15px;
+	
+}
+
+.titulo h1{
+	-webkit-text-stroke: 3px black;
+    color: transparent;
+    font-size: 12rem;
+    font-family: fantasy;
+    text-shadow: 3px 3px white;
+}
+/*<img src="imagen.gif" style="position: absolute; top: 0; left: 0;" />*/
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+.section {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	border-radius: 5px;
+	padding: 100px 0px;
+}
+.section .text {
+	width: 50%;
+	height: 100%;
+	margin-right: 50px;
+}
+.section .text h1  {
+	
+	text-shadow: 3px 5px 2px red;
+	font-size: 5em;
+	font-weight: 600;
+	margin-top: 5em;
+	/*margin-left: 1em;*/
+}
+.section .text p{
+	margin-left:0;
+
+}
+.section .image {
+	width: 40vw;
+	height: 50vw;
+	background: url('./img7.jpg') no-repeat center center / cover;
+	transform: scale(4) rotate(45deg);
+}
+
+.sec-nav{
+	margin-top: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.sec-nav .nav {
+	margin-top: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.sec-nav .nav a{
+	margin-top: 1vw;
+	margin-right: 1vw;
+	font-size: 2em;
+	color: red;
+	text-decoration:none;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+.section2{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/*position: relative;*/
+	padding: 20px 20px;
+	margin: auto;
+}
+
+
+
+.section2 .image2 {
+	margin: 1vh;
+	width: 50vh;
+	height: 50vh;
+	background: url('./img3.jpg') no-repeat center center / cover;
+	
+}
+
+.section2  .image3 {
+	margin: 1vh;
+	width: 50vh;
+	height: 50vh;
+	background: url('./img5.jpg')  no-repeat center center / cover;
+	
+}
+
+.section2  .image4 {
+	margin: 1vh;
+	width: 50vh;
+	height: 50vh;
+	background: url('./img4.jpg')  no-repeat center center / cover;
+	
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////*/
